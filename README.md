@@ -1,6 +1,6 @@
 1.Summary: This project's goal was to develop a ML model to predict daily energy consumption in buildings based on features like square footage, number of occupants and building type.
 
-2.Results: The final model (final_model.pkl) is a linear regression model fit on the target variable (energy_concumption), transformed by means of a Boxcox transformation, and the features building type, encoded by the one hot encoding technique, square footage, number of occupants and appliances used. All predictor variables were sccaled down to z-scores. The final r-squared was close to 100%, and the normalized RMSE (RMSE/standard deviation of y) was around 0.01.
+2.Results: The final model (final_model.pkl) is a linear regression model fit on the target variable "energy_concumption", transformed by means of a Boxcox transformation, and several numeric and categorical variables. All predictor variables were sccaled down to z-scores. The final r-squared was close to 100%, and the normalized RMSE (RMSE/standard deviation of y) was around 0.01.
 
 3.Approach:
 
